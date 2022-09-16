@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name": "Flash",
+        "branchId": 1
+    },
+    {
+        "id": 2,
+        "name": "Fanta",
+        "branchId": 1
+    },
+    {
+        "id": 3,
+        "name": "Pepssi",
+        "branchId": 2
+    },
+    {
+        "id": 4,
+        "name": "Pepssi",
+        "branchId": 7
+    },
+    {
+        "id": 5,
+        "name": "Sprite",
+        "branchId": 3
+    }
+]

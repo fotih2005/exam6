@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "name": "Eshmat",
+        "age": 26,
+        "experience": 10,
+        "salary": "2 000 000",
+        "branchId": 1
+    },
+    {
+        "id": 2,
+        "name": "Toshmat",
+        "age": 32,
+        "experience": 7,
+        "salary": "2 500 000",
+        "branchId": 3
+    }
+]

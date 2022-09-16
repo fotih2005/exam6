@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "Korzinka chimboy",
+        "marketId": 1
+    },
+    {
+        "id": 2,
+        "name": "Korzinka Olmazor",
+        "marketId": 1
+    },
+    {
+        "id": 3,
+        "name": "Havas sergili",
+        "marketId": 2
+    }
+]
