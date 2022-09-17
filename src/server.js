@@ -246,12 +246,19 @@ const server = http.createServer((req, res) => {
     }
   }
 
-  if(req.method === 'DELETE'){
+  if (req.method === "DELETE") {
     let params = req.url.split("/")[2];
-    if(req.url === `/markets/${params}`){
-      let markets = read('markets.json')
-      let filteredMarkets = markets.filter(e => e.id !== +params)
-      console.log(filteredMarkets);
+    if (req.url === `/markets/${params}`) {
+      let markets = read("markets.json");
+      let filteredMarkets = markets.filter((e) => e.id !== +params);
+      write("markets.json", filteredMarkets);
+      res.writeHead(200, options);
+      res.end(
+        JSON.stringify({
+          status: 200,
+          message: "Marekt o`chirildi",
+        })
+      );
     }
   }
 });
